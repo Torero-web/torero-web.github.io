@@ -158,10 +158,14 @@ nav a{
 }
 #contacts .col{
     text-align: left;
-    padding: 0.5rem;
+    padding: 0.2rem 0.5rem;
 }
 
 /*-- форма */
+#form{
+    margin: 20px
+}
+
 #form .row:nth-child(4) *{
     vertical-align: top
 }
