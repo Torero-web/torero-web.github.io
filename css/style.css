@@ -9,14 +9,32 @@
 }
 
 #wrapper { 
-    max-width: 992px; 
-    width: 80%; 
+    width: 992px; 
+/*    width: 80%; */
     margin: auto; 
     vertical-align: top;
     padding: 1rem;
     box-shadow: 0 0 10px 1px rgba(0, 0, 0, 0.3)
 }
 
+h1{
+    font-size: 1.2rem;
+    text-align: center;
+    padding: 1.4rem;
+}
+h2{
+  font-size: 1.2em;
+      text-align: center;
+}
+.buttom img {
+        width: 100px;
+}
+footer {
+    text-align: center;
+    margin: 10px;
+    }
+
+/*----- Навигация -----*/
 nav ul {
     list-style-type: none;
 }
@@ -27,7 +45,168 @@ nav li{
 nav ul {
     text-align: center
 }
+nav a:link   {color:#696969}
+nav a:visited{color:#696969}
+nav a:hover{
+    color:#0077d1;
+}
+nav a{
+    text-decoration: none
+}
 
-footer {
+/*----- Услуги -----*/
+#service .col{
+    display: table;
+    vertical-align: top;
+}
+
+#service .col{
+    display: table-cell;
+    width: 20%;
+    border: 1px solid #FFFFFF;
+    vertical-align: top;
     text-align: center;
+    padding: 1rem;
+}
+#service img{
+    width: 100px;
+}
+#service #service_text{
+    padding: 1rem;
+}
+
+/*----- Каталог главная -----*/
+#catalog ul {
+    list-style-type: none;
+}
+#catalog li{
+    padding: 1px 5rem
     }
+#catalog ul {
+    text-align: left;
+}
+
+#catalog .buttom {
+    text-align: left;
+}
+#catalog .buttom img{
+    width: 125px;
+}
+#catalog {
+    vertical-align: top;
+    text-align: center;
+}
+
+#catalog .col{
+    vertical-align: top;
+    font-size: 1rem;
+    width: 48%;
+    box-sizing: border-box;
+    display: inline-block;
+    padding: 0;
+    text-align: center;
+    margin: 10px 0 0 10px;
+}
+
+#catalog img{
+    width: 350px;    
+}
+
+#catalog a:link   {color:#696969}
+#catalog a:visited{color:#696969}
+#catalog a:hover{
+    color:#0077d1;
+}
+#catalog a{
+    text-decoration: none
+}
+
+
+/*----- О нас -----*/
+#about .col{
+    padding: 1rem;
+}
+
+#employee {
+    vertical-align: top;
+    text-align: center;
+}
+
+#employee .col{
+    vertical-align: top;
+    font-size: 1rem;
+    width: 47%;
+    box-sizing: border-box;
+    display: inline-block;
+    padding: 0;
+    text-align: center;
+    margin: 10px 0 0 10px;
+}
+
+#employee img{
+    width: 350px;    
+}
+
+/*----- Контакты -----*/
+#contacts .buttom{
+    text-align: left
+}
+
+.map img{
+    width: 500px;
+    margin: 10px
+}
+#contacts .col{
+    text-align: left;
+    padding: 0.5rem;
+}
+
+/*-- форма */
+#form .row:nth-child(4) *{
+    vertical-align: top
+}
+
+#form label {
+    display: inline-block;
+    width: 150px;
+    margin: 10px
+}
+
+#form input,
+#form textarea {
+    width: 300px
+}
+
+#contacts .row:nth-child(5) input,
+#contacts .row:nth-child(6) input {
+    width: auto;
+    }
+
+#contacts .row:nth-child(7) input {
+    width: auto;
+}
+#contacts textarea {
+    height: 150px
+}
+
+/*----- Каталог МО -----*/
+#catalog_msk .col{
+/*    border: 1px solid gray;*/
+    vertical-align: top;
+    font-size: 1rem;
+    width: 48%;
+    box-sizing: border-box;
+    display: inline-block;
+    padding: 0;
+    text-align: center;
+    margin: 10px 0 0 10px;
+}
+
+#catalog_msk .col img{
+    width: 250px;    
+}
+.text{
+    text-align: left;
+    font-size: 0.9rem;
+}
+
