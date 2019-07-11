@@ -226,7 +226,7 @@ nav a{
     width: 100px
 }
 
-.row {
+.sidebar-right .row {
 /*    border: 1px solid gray;*/
      display:table-cell;
      vertical-align: top;
