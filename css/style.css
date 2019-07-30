@@ -9,7 +9,7 @@
 }
 
 #wrapper { 
-    width: 992px; 
+    width: 1024px; 
 /*    width: 80%; */
     margin: auto; 
     vertical-align: top;
@@ -24,7 +24,8 @@ h1{
 }
 h2{
   font-size: 1.2em;
-      text-align: center;
+  font-family: 'Noto Sans', sans-serif;
+  text-align: center;
 }
 .buttom img {
         width: 100px;
@@ -35,7 +36,7 @@ footer {
     }
 
 /*----- Навигация -----*/
-nav ul {
+    nav ul {
     list-style-type: none;
 }
 nav li{
@@ -45,15 +46,18 @@ nav li{
 nav ul {
     text-align: center
 }
-nav a:link   {color:#243238}
-nav a:visited{color:#243238}
-nav a:hover{
+
+
+a:link   {color:#243238}
+a:visited{color:#243238}
+a:hover{
     color:#ff680b;
     text-decoration: underline
 }
-nav a{
+a{
     text-decoration: none
 }
+
 
 /*----- Услуги -----*/
 #service .col{
@@ -74,6 +78,15 @@ nav a{
 }
 #service #service_text{
     padding: 1rem;
+}
+
+/*--КАРУСЕЛЬ--*/
+.carousel {
+        box-sizing: border-box;
+        display: block;
+/*        text-align: center;*/
+        width: 50%;
+        margin: 0 0 0 25% 
 }
 
 /*----- Каталог главная -----*/
@@ -196,9 +209,7 @@ nav a{
 }
 
 /*----- Каталог МО -----*/
-.product-img {
-    width: 250px;  
-}
+*/
 .product-desc{
     text-align: left;
     font-size: 0.9rem;
