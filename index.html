@@ -3,9 +3,16 @@
 <head>
     <meta charset="UTF-8">
     <title>Flat for you | Агентство недвижимости</title>
-    <link href="https://fonts.googleapis.com/css?family=Open+Sans&display=swap" rel="stylesheet"> 
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Noto+Sans&display=swap" rel="stylesheet">
+        <!-- jquery -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+        <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+        <!-- Bootstrap JS -->      
+    <script src="js/bootstrap.min.js"></script>
     <link rel='stylesheet' href='css/style.css'/>
-    <meta name="viewport" content="width=device-width, initial-scale=1" /> 
     <link media='screen and (max-width: 768px)' 
                   rel='stylesheet' 
                   href='css/mobile.css'/>
@@ -29,6 +36,7 @@
           <li><a href='contacts.html'>Контакты</a>
       </ul>
     </nav>
+    
     <div class='container'>
     <div id='about'>
         <h1>Недвижимость в Москве и МО</h1>
@@ -55,6 +63,39 @@
             <p class='col'>Продажа недвижимости</p></div>
     </div>
     </div>
+       
+    <div class='container'>
+     <!-- Bootstrap 4 -->
+         <div id="carousel" class="carousel slide d-inline-block" data-ride="carousel">
+            <!-- Индикаторы -->
+            <ol class="carousel-indicators">
+                <li data-target="#carousel" data-slide-to="0" class="active"></li>
+                <li data-target="#carousel" data-slide-to="1"></li>
+                <li data-target="#carousel" data-slide-to="2"></li>
+            </ol>
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <img class="img-fluid" src="img/carousel_1.jpg" alt="slide1">
+                </div>
+                <div class="carousel-item">
+                    <img class="img-fluid" src="img/carousel_2.jpg" alt="slide2">
+                </div>
+                <div class="carousel-item">
+                    <img class="img-fluid" src="img/carousel_3.jpg" alt="slide3">
+                </div>
+            </div>
+            <!-- Элементы управления -->
+            <a class="carousel-control-prev" href="#carousel" role="button" data-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="sr-only">Предыдущий</span>
+            </a>
+            <a class="carousel-control-next" href="#carousel" role="button" data-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="sr-only">Следующий</span>
+            </a>
+        </div>
+    </div>
+    
     <div class='container'>
      <div id='catalog'>
         <h2>Каталог</h2>
@@ -111,8 +152,13 @@
     </div>
     </div>
     
-    <footer>Flat for you | 2019</footer>
- 
+   <footer>
+    <div class="footer1"> Flat for you | 2019</div>
+    <div class="footer2"></div>
+    <div class="footer3"></div>
+    <div class="footer4"></div>
+   </footer>
+
 </div>
 </body>
 </html>
