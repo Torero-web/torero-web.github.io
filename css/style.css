@@ -209,7 +209,6 @@ a{
 }
 
 /*----- Каталог МО -----*/
-*/
 .product-desc{
     text-align: left;
     font-size: 0.9rem;
@@ -247,15 +246,11 @@ a{
     width:200px
 }
 
-.product-name {
-    text-align: left;
-    font-size: 1rem;
-    width: 120px
-}
-
+/*продукты*/
 .product{
 /*    border: 1px solid gray;*/
-    display: table
+    display: table;
+    width: 100%;
 }
 .product span,
 .product img{
@@ -265,3 +260,38 @@ a{
     padding: 3px;
 /*    border: 1px solid gray;*/
 }
+
+.product-name {
+    text-align: left;
+    font-size: 0.9rem;
+    width: 110px
+}
+.product-desc {
+    width: 30%;
+    height: 180px;
+    font-size: 0.8rem;
+}
+
+.product-address {
+    width: 11%;
+    font-size: 0.8rem;
+}
+.product-map,
+.product-rooms,
+.product-level,
+.product-square,
+.product-type-house{
+    width: 5%;
+    font-size: 0.8rem;
+}
+
+.product a:link   {color:#243238; font-size: 0.8rem}
+/*
+a:visited{color:#243238}
+a:hover{
+    color:#ff680b;
+    text-decoration: underline
+}
+a{
+    text-decoration: none
+}*/
