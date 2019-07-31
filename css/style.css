@@ -252,22 +252,24 @@ a{
     display: table;
     width: 100%;
 }
+.product-name,
 .product span,
 .product img{
     display:table-cell;
     vertical-align: top;
 /*    margin: 10px;*/
     padding: 3px;
-/*    border: 1px solid gray;*/
+  /*  border: 1px solid gray;*/
 }
 
 .product-name {
     text-align: left;
     font-size: 0.9rem;
-    width: 110px
+    width: 14%;
+/*    border: 1px solid gray;*/
 }
 .product-desc {
-    width: 30%;
+    width: 29%;
     height: 180px;
     font-size: 0.8rem;
 }
@@ -285,6 +287,11 @@ a{
     font-size: 0.8rem;
 }
 
+.product-price,
+.product-price-currency{
+    font-size: 0.9rem;
+}
+
 .product a:link   {color:#243238; font-size: 0.8rem}
 /*
 a:visited{color:#243238}
@@ -294,4 +301,4 @@ a:hover{
 }
 a{
     text-decoration: none
-}*/
+}
