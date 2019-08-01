@@ -27,6 +27,10 @@ h2{
   font-family: 'Noto Sans', sans-serif;
   text-align: center;
 }
+h3{
+  font-size: 1.2em;
+  text-align: center;
+}
 .buttom img {
         width: 100px;
 }
@@ -55,7 +59,9 @@ a:hover{
     text-decoration: underline
 }
 a{
-    text-decoration: none
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size:0.9rem
 }
 
 
@@ -258,8 +264,11 @@ a{
     display:table-cell;
     vertical-align: top;
 /*    margin: 10px;*/
-    padding: 3px;
-  /*  border: 1px solid gray;*/
+    padding: 0 3px 15px 3px;
+/*    border: 1px solid gray;*/
+}
+.product img{
+    padding:0
 }
 
 .product-name {
@@ -286,13 +295,18 @@ a{
     width: 5%;
     font-size: 0.8rem;
 }
-
-.product-price,
-.product-price-currency{
+.offer {
     font-size: 0.9rem;
+    padding: 0 0 10px 0;
 }
 
-.product a:link   {color:#243238; font-size: 0.8rem}
+.product a:link   {
+    color:#243238; 
+    font-size: 0.8rem;
+    text-transform: none
+}
+
+
 /*
 a:visited{color:#243238}
 a:hover{
