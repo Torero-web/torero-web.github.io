@@ -40,7 +40,7 @@ footer {
     }
 
 /*----- Навигация -----*/
-    nav ul {
+nav ul {
     list-style-type: none;
 }
 nav li{
@@ -54,10 +54,9 @@ nav ul {
 
 a:link   {color:#243238}
 a:visited{color:#243238}
-a:hover{
-    color:#ff680b;
-    text-decoration: underline
-}
+a:hover{color:#ff680b; 
+        text-decoration: underline
+} 
 a{
     text-decoration: none;
     text-transform: uppercase;
@@ -304,15 +303,4 @@ a{
     color:#243238; 
     font-size: 0.8rem;
     text-transform: none
-}
-
-
-/*
-a:visited{color:#243238}
-a:hover{
-    color:#ff680b;
-    text-decoration: underline
-}
-a{
-    text-decoration: none
 }
