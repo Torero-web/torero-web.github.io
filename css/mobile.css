@@ -12,7 +12,13 @@ nav a{
     display: block;
     text-align: center;
     float: none;
+    width: 100%;
+    border: 1px solid gray
 }
+
+.buttom {
+    display: none
+} 
 
 #service {
     display:none
@@ -33,3 +39,66 @@ iframe{
 {
   width: 100%
 }
+
+#catalog .col {
+    display: block;
+    width: 100%;
+    padding: 0;
+    margin: 0;
+}
+
+#catalog a {
+    display: block;
+}
+#catalog img{
+    width: 100%;
+}
+
+/*--about--*/
+#employee .col {
+    display: block;
+    width: 100%;
+    padding: 0;
+    margin: 0;
+}
+#employee img{
+    width: 100%;
+}
+/*--catalog--*/
+.sidebar-right .row{
+    display: block;
+    width: 100%;
+    padding: 0;
+    margin: 0;
+}
+
+.product{
+    display: block;
+    width: 100%;
+    border: 1px solid gray;
+    margin: 0 0 15px 0;
+}
+
+.product-desc {
+    height: auto
+}
+.product-name{
+    font-weight: bold
+}
+
+.offer,
+.product-name,
+.product-desc,
+.product-address,
+.product-map,
+.product-rooms,
+.product-level,
+.product-square,
+.product-type-house{
+    border: 1px solid gray;
+    display: block;
+    padding: 0;
+    margin: 0;
+    width: auto;
+}
+
