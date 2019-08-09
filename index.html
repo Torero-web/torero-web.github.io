@@ -145,9 +145,12 @@
     <div id='contacts'>
        <h2>Контакты</h2>
        <address>
-        <p class='col'>Москва, Шарикоподшипниковская, 25 </p>
-        <p class='col'><a href='mailto:privet@flatforyou.io'>privet@flatforyou.io</a></p>
-        <p class='col'><a href='tel:+7(499)AAA-AA-AA'>+7(499)AAA-AA-AA</a></p>
+            <div itemscope itemtype="http://schema.org/PostalAddress">
+                <p class='col'>Адрес:</p>
+                <p class='col'><span itemprop="addressLocality">Москва</span>,<span itemprop="streetAddress">Шарикоподшипниковская, 25</span></p>
+                <p itemprop="email" class='col'><a href='mailto:privet@flatforyou.io'>privet@flatforyou.io</a></p>
+                <p itemprop="telephone" class='col'><a href='tel:+7(499)AAA-AA-AA'>+7(499)AAA-AA-AA</a></p>
+           </div>
         </address>    
     </div>
     </div>
