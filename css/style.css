@@ -172,14 +172,21 @@ a{
     text-align: left
 }
 
-.map img{
-    width: 500px;
-    margin: 10px
+#contacts iframe{
+    margin: 0 10px 10px 0 
 }
+
 #contacts .col{
     text-align: left;
-    padding: 0.2rem 0.5rem;
+    padding: 0 1rem;
+    margin: 0.2rem;
 }
+
+#contacts #address_l {
+    margin: 1rem 0;
+}
+
+
 
 /*-- форма */
 #form{
