@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+   <url>
+      <loc>https://torero-web.github.io/</loc>
+      <lastmod>2019-08-10</lastmod>
+      <changefreq>monthly</changefreq>
+      <priority>0.8</priority>
+   </url>
+   <url>
+      <loc>https://torero-web.github.io/about.html</loc>
+      <lastmod>2019-08-10</lastmod>
+      <changefreq>monthly</changefreq>
+      <priority>0.8</priority>
+    </url>
+    <url>
+      <loc>https://torero-web.github.io/catalog.html</loc>
+      <lastmod>2019-08-10</lastmod>
+      <changefreq>daily</changefreq>
+      <priority>1</priority>
+    </url>
+    <url>
+      <loc>https://torero-web.github.io/service.html</loc>
+      <lastmod>2019-08-10</lastmod>
+      <changefreq>monthly</changefreq>
+      <priority>0.8</priority>
+    </url>
+    <url>
+      <loc>https://torero-web.github.io/contacts.html</loc>
+      <lastmod>2019-08-10</lastmod>
+      <changefreq>monthly</changefreq>
+      <priority>0.8</priority>
+    </url>
+</urlset>
