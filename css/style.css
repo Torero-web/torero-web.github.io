@@ -258,6 +258,32 @@ a{
     width:200px
 }
 
+
+/*страницы*/
+.pagination > li > a
+{
+    background-color: white;
+    color: #243238;
+}
+
+.pagination > li > a:focus,
+.pagination > li > a:hover{
+    color: #ff680b;
+    background-color: #eee;
+    border-color: #ddd;
+}
+.pagination > .active > a{
+    color: white;
+    background-color: #ff680b !Important;
+    border: solid 1px #ff680b !Important;
+}
+
+.pagination > .active > a:hover{
+    background-color: #ff680b !Important;
+    border: solid 1px #ff680b;
+}
+
+
 /*продукты*/
 .product{
 /*    border: 1px solid gray;*/
