@@ -259,18 +259,20 @@ a{
 }
 
 /*страницы*/
+
 .pagination > li > a
 {
     background-color: white;
     color: #243238;
 }
 
-.pagination > li > a:focus,
-.pagination > li > a:hover{
-    color: #ff680b;
+.pagination > li > a:hover,
+.pagination > li > span:hover{
+    color: #ff680b !Important;
     background-color: #f5f5f5;
     border-color: #ddd;
 }
+
 .pagination > .active > a{
     color: white;
     background-color: #ff680b !Important;
