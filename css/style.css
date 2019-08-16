@@ -258,7 +258,6 @@ a{
     width:200px
 }
 
-
 /*страницы*/
 .pagination > li > a
 {
@@ -269,7 +268,7 @@ a{
 .pagination > li > a:focus,
 .pagination > li > a:hover{
     color: #ff680b;
-    background-color: #eee;
+    background-color: #f5f5f5;
     border-color: #ddd;
 }
 .pagination > .active > a{
