@@ -81,6 +81,7 @@ nav ul {
   height: 0;
   overflow: hidden;
   transition: height 0.4s 0.4s ease-out;
+  border-radius: 5px;
   z-index: 999999
 }
 .menu ul ul a{
@@ -111,17 +112,16 @@ nav ul {
 
 .menu li:hover ul {
   height: 250px;
-  border-radius: 5px;
 }
 
 #h_menu {
-  width: 800px;
-  margin: 0 114px;
+  width: 820px;
+  margin: 0 102px;
 }
 
 /*индикатор выпадающего списка*/
-li > a:after { content: '\0025BC'; }
-li > a:only-child:after { content: ''; }
+.menu li > a:after { content: ' \0025BC'; }
+.menu li > a:only-child:after { content: ''; }
 
 /*----- Услуги -----*/
 #service .col{
