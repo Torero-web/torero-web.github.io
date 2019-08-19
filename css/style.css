@@ -114,7 +114,8 @@ nav ul {
 }
 
 #h_menu {
-  width: 800px
+  width: 800px;
+  margin: 0 114px;
 }
 
 /*----- Услуги -----*/
