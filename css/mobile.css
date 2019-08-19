@@ -19,6 +19,12 @@ header {
     display: block;
     }
 
+#h_menu {
+    width: 100%;
+    margin: auto
+}
+
+
 .buttom {
     display: none
 } 
