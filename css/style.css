@@ -119,6 +119,10 @@ nav ul {
   margin: 0 114px;
 }
 
+/*индикатор выпадающего списка*/
+li > a:after { content: '\0025BC'; }
+li > a:only-child:after { content: ''; }
+
 /*----- Услуги -----*/
 #service .col{
     display: table;
