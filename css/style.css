@@ -41,19 +41,6 @@ text-align:center;
 margin:10px
 }
 
-nav ul {
-list-style-type:none
-}
-
-nav li {
-display:inline-block;
-padding:5px 10px
-}
-
-nav ul {
-text-align:center
-}
-
 a:link {
 color:#243238
 }
@@ -71,6 +58,74 @@ a {
 text-decoration:none;
 text-transform:uppercase;
 font-size:.9rem
+}
+
+.menu ul {
+padding:0;
+margin:0;
+display:table;
+width:100%
+}
+
+.menu li {
+display:table-cell;
+background-color:#fff;
+text-align:center;
+position:relative
+}
+
+.menu ul ul {
+display:block;
+position:absolute;
+height:0;
+overflow:hidden;
+transition:height .4s .4s ease-out;
+border-radius:5px;
+z-index:999999
+}
+
+.menu ul ul a {
+background-color:#29293a;
+color:#a5a6b5
+}
+
+.menu ul ul a:hover {
+color:#fff
+}
+
+.menu ul ul li {
+display:block
+}
+
+.menu a {
+color:#243238;
+text-decoration:none;
+height:50px;
+display:inline-block;
+line-height:50px;
+width:100%;
+text-transform:uppercase
+}
+
+.menu a:hover {
+color:#ff680b
+}
+
+.menu li:hover ul {
+height:250px
+}
+
+#h_menu {
+width:820px;
+margin:0 102px
+}
+
+.menu li > a:after {
+content:' \0025BC'
+}
+
+.menu li > a:only-child:after {
+content:''
 }
 
 #service .col {
