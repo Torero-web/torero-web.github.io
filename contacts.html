@@ -21,30 +21,32 @@
 
 <body>
 <div id='wrapper'>
-    <header>
+   <header>
+     <div id='header-menu'>
       <div id='header-bottom'>
           <a href='index.html'><img src='img/logo_2.png' alt='Flat for you' /></a>
       </div>
-    </header> 
       
- <div id="h_menu">
-    <nav class="menu">
-      <ul>
-          <li><a href='index.html'>Главная</a>
-          <li><a href='about.html'>О компании</a>
-          <li><a href='catalog.html'>Каталог</a>
-            <ul>
-                <li><a href="#">Студия</a></li>
-                <li><a href="#">Однокомнатная</a></li>
-                <li><a href="#">Двухкомнатная</a></li>
-                <li><a href="#">Трехкомнатная</a></li>
-                <li><a href="#">Четырехкомнатная</a></li>
-            </ul>
-          <li><a href='service.html'>Услуги</a>
-          <li><a href='contacts.html'>Контакты</a>
-      </ul>
-    </nav>
-   </div>
+       <div id="h_menu">
+        <nav class="menu">
+          <ul>
+              <li><a href='index.html'>Главная</a>
+              <li><a href='about.html'>О компании</a>
+              <li><a href='catalog.html'>Каталог</a>
+                <ul>
+                    <li><a href="#">Студия</a></li>
+                    <li><a href="#">Однокомнатная</a></li>
+                    <li><a href="#">Двухкомнатная</a></li>
+                    <li><a href="#">Трехкомнатная</a></li>
+                    <li><a href="#">Четырехкомнатная</a></li>
+                </ul>
+              <li><a href='service.html'>Услуги</a>
+              <li><a href='contacts.html'>Контакты</a>
+          </ul>
+        </nav>
+       </div>
+       </div>
+   </header> 
     
     <div class='container'>
     <div id='contacts'>
@@ -91,13 +93,16 @@
             <label>Сообщение</label>
             <textarea name='msg' placeholder='Введите сообщение'></textarea>
         </div>
+        
         <div class='row'>
             <label>Я добровольно отправляю свои данные</label>
             <input type="checkbox" name="rules" value="1" required />
         </div> 
+        <div class='row'>
+            <button class='button' type="submit">Отправить</button>
+         </div>
          </form>
         </div>
-        <div class='row'><input type='submit'/></div>
     </div>
   
             
