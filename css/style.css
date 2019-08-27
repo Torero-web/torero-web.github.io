@@ -1,63 +1,72 @@
 * {
-font-family:'Open Sans',sans-serif;
-color:#333;
-font-size:14px;
-box-sizing:border-box;
-margin:0;
-padding:0
+    font-family: 'Open Sans', sans-serif;
+    color: #333;
+    font-size: 14px;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    /*border: 1px solid gray*/
 }
 
-#wrapper {
-width:1024px;
-margin:auto;
-vertical-align:top;
-padding:1rem;
-box-shadow:0 0 10px 1px rgba(0,0,0,0.3)
+#wrapper { 
+    width: 1024px; 
+/*    width: 80%; */
+    margin: auto; 
+    vertical-align: top;
+    padding: 1rem;
+    box-shadow: 0 0 10px 1px rgba(0, 0, 0, 0.3)
 }
 
-h1 {
-font-size:1.2rem;
-text-align:center;
-padding:1.4rem
+h1{
+    font-size: 1.2rem;
+    text-align: center;
+    padding: 1.4rem;
 }
-
-h2 {
-font-size:1.2em;
-font-family:'Noto Sans',sans-serif;
-text-align:center
+h2{
+  font-size: 1.2em;
+  font-family: 'Noto Sans', sans-serif;
+  text-align: center;
 }
-
-h3 {
-font-size:1.2em;
-text-align:center
+h3{
+  font-size: 1.2em;
+  text-align: center;
 }
-
 .buttom img {
-width:100px
+        width: 100px;
 }
-
 footer {
-text-align:center;
-margin:10px
-}
+    text-align: center;
+    margin: 10px;
+    }
 
-a:link {
-color:#243238
+/*----- Навигация -----*/
+a:link   {color:#243238}
+a:visited{color:#243238}
+a:hover{color:#ff680b; 
+        text-decoration: underline
+} 
+a{
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size:0.9rem
 }
-
-a:visited {
-color:#243238
+/*
+nav ul {
+    list-style-type: none;
 }
-
-a:hover {
-color:#ff680b;
-text-decoration:underline
+nav li{
+    display: inline-block;
+    padding: 5px 10px
+    }
+nav ul {
+    text-align: center
 }
-
-a {
-text-decoration:none;
-text-transform:uppercase;
-font-size:.9rem
+*/
+/*---menu nav---*/
+#header-menu{
+    display:flex;
+    justify-content:center;
+    Align-items:center;
 }
 
 .menu ul {
@@ -104,7 +113,7 @@ height:50px;
 display:inline-block;
 line-height:50px;
 width:100%;
-text-transform:uppercase
+text-transform:uppercase;
 }
 
 .menu a:hover {
@@ -116,278 +125,327 @@ height:250px
 }
 
 #h_menu {
-width:820px;
-margin:0 102px
+    width:700px;
+    margin:0;
 }
 
-.menu li > a:after {
-content:' \0025BC'
+/*индикатор выпадающего списка*/
+.menu li > a:after { content: ' \0025BC'; }
+.menu li > a:only-child:after { content: ''; }
+
+/*----- Услуги -----*/
+#service .col{
+    display: table;
+    vertical-align: top;
 }
 
-.menu li > a:only-child:after {
-content:''
+#service .col{
+    display: table-cell;
+    width: 20%;
+    border: 1px solid #FFFFFF;
+    vertical-align: top;
+    text-align: center;
+    padding: 1rem;
+}
+#service img{
+    width: 100px;
+}
+#service #service_text{
+    padding: 1rem;
 }
 
-#service .col {
-display:table;
-vertical-align:top;
-display:table-cell;
-width:20%;
-border:1px solid #FFF;
-vertical-align:top;
-text-align:center;
-padding:1rem
-}
-
-#service img {
-width:100px
-}
-
-#service #service_text {
-padding:1rem
-}
-
+/*--КАРУСЕЛЬ--*/
 .carousel {
-box-sizing:border-box;
-display:block;
-width:50%;
-margin:0 0 0 25%
+        box-sizing: border-box;
+        display: block;
+/*        text-align: center;*/
+        width: 50%;
+        margin: 0 0 0 25% 
 }
 
+/*----- Каталог главная -----*/
 #catalog ul {
-list-style-type:none
+    list-style-type: none;
 }
-
-#catalog li {
-padding:1px 5rem
-}
-
+#catalog li{
+    padding: 1px 5rem
+    }
 #catalog ul {
-text-align:left
+    text-align: left;
 }
 
 #catalog .buttom {
-text-align:left
+    text-align: left;
 }
-
-#catalog .buttom img {
-width:125px
+#catalog .buttom img{
+    width: 125px;
 }
-
 #catalog {
-vertical-align:top;
-text-align:center
+    vertical-align: top;
+    text-align: center;
 }
 
-#catalog .col {
-vertical-align:top;
-font-size:1rem;
-width:48%;
-box-sizing:border-box;
-display:inline-block;
-padding:0;
-text-align:center;
-margin:10px 0 0 10px
+#catalog .col{
+    vertical-align: top;
+    font-size: 1rem;
+    width: 48%;
+    box-sizing: border-box;
+    display: inline-block;
+    padding: 0;
+    text-align: center;
+    margin: 10px 0 0 10px;
 }
 
-#catalog img {
-width:350px
+#catalog img{
+    width: 350px;    
 }
 
-#catalog a:link {
-color:#243238
+#catalog a:link   {color:#243238}
+#catalog a:visited{color:#243238}
+#catalog a:hover{
+    color:#ff680b;
+    text-decoration: underline;
+}
+#catalog a{
+    text-decoration: none
 }
 
-#catalog a:visited {
-color:#243238
-}
 
-#catalog a:hover {
-color:#ff680b;
-text-decoration:underline
-}
-
-#catalog a {
-text-decoration:none
-}
-
-#about .col {
-padding:1rem
+/*----- О нас -----*/
+#about .col{
+    padding: 1rem;
 }
 
 #employee {
-vertical-align:top;
-text-align:center
+    vertical-align: top;
+    text-align: center;
 }
 
-#employee .col {
-vertical-align:top;
-font-size:1rem;
-width:47%;
-box-sizing:border-box;
-display:inline-block;
-padding:0;
-text-align:center;
-margin:10px 0 0 10px
+#employee .col{
+    vertical-align: top;
+    font-size: 1rem;
+    width: 47%;
+    box-sizing: border-box;
+    display: inline-block;
+    padding: 0;
+    text-align: center;
+    margin: 10px 0 0 10px;
 }
 
-#employee img {
-width:350px
+#employee img{
+    width: 350px;    
 }
 
-#contacts .buttom {
-text-align:left
+/*----- Контакты -----*/
+#contacts .buttom{
+    text-align: left
 }
 
-#contacts iframe {
-margin:10px
+#contacts iframe{
+/*    margin: 10px;*/
+    width: 100%
 }
 
-#contacts .col {
-text-align:left;
-padding:0 1rem;
-margin:.2rem
+#contacts .col{
+    text-align: left;
+    padding: 0 1rem;
+    margin: 0.2rem;
 }
 
 #contacts #address_l {
-margin:1rem 0
+    margin: 1rem 0;
 }
 
-#form {
-margin:20px
+
+
+/*-- форма */
+#form{
+    display: flex;
+    justify-content:center;
+    Align-items:center;
+    }
+#form h4{
+    text-align: center;
 }
 
-#form .row:nth-child(4) * {
-vertical-align:top
+#form .row:nth-child(4) *{
+    vertical-align: top
 }
 
 #form label {
-display:inline-block;
-width:150px;
-margin:10px
+    display: inline-block;
+    width: 150px;
+    margin: 2px 0;
 }
 
-#form input,#form textarea {
-width:300px
+#form input,
+#form textarea {
+    display: block;
+    width: 300px;
+    margin: 2px 0;
 }
 
-#contacts .row:nth-child(5) input,#contacts .row:nth-child(6) input {
-width:auto
+#form .row:nth-child(5) input,
+#form .row:nth-child(6) input {
+    width: auto;
+    }
+#form .row:nth-child(7) button{
+    width: auto;
+    margin:auto
+}
+#form textarea {
+    height: 100px;
 }
 
-#contacts .row:nth-child(7) input {
-width:auto
+/*----- Каталог МО -----*/
+.product-desc{
+    text-align: left;
+    font-size: 0.9rem;
+    width:200px
 }
 
-#contacts textarea {
-height:150px
-}
-
-.product-desc {
-text-align:left;
-font-size:.9rem;
-width:200px
-}
-
-.sidebar-right ul {
-list-style-type:none;
-padding:0;
-margin:0;
-display:inline-block
+.sidebar-right ul{
+    list-style-type: none;
+    padding: 0;
+    margin: 0;   
+    display: inline-block;
 }
 
 .sidebar-right {
-border:1px solid gray;
-vertical-align:top;
-width:60%;
-padding:3px;
-margin:15px 20%
+    border: 1px solid gray;
+    vertical-align: top;
+    width: 100%;
+    padding: 3px;
+    /*margin: 15px 20% 15px;*/
 }
-
 .sidebar-right input {
-width:50px
+    width: 50px
 }
-
 .sidebar-right select {
-width:100px
+    width: 100px
 }
 
 .sidebar-right .row {
-display:table-cell;
-vertical-align:top;
-width:25%
+    /*border: 1px solid gray;*/
+     display:table-cell;
+     vertical-align: top;
+     width: 25%
 }
-
 .row ul {
-width:200px
+    width:200px;
+}
+.product:hover{
+    background: #f6f6f6;
+    transition: .55s;
 }
 
-.pagination > li > a {
-background-color:#fff;
-color:#243238
+/*КНОПКИ*/
+.button, 
+.button:focus {
+    color: #fff;
+    background-color: #ff680b;
+    border-color: #ff680b;
+}
+.button{
+    border: 2px solid;
+    border-radius: 6px;
+    font-size: 12px;
+    line-height: 1.5;
+    text-align: center;
+    font-family: "Oswald", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+    font-weight: 500;
+    letter-spacing: 0.2em;
+    text-transform: uppercase;
+    white-space: nowrap;
+    cursor: pointer;
+    padding: 9px 32px;
+    font-size: 12px;
+    line-height: 1.5;
+}
+.button:hover,
+.button:active {
+    color: #fff;
+    background-color: #792f00;
+    /*border-color: #792f00;*/
 }
 
-.pagination > li > a:hover,.pagination > li > span:hover {
-color:#ff680b!important;
-background-color:#f5f5f5;
-border-color:#ddd
+/*страницы*/
+
+.pagination > li > a
+{
+    background-color: white;
+    color: #243238;
 }
 
-.pagination > .active > a {
-color:#fff;
-background-color:#ff680b!important;
-border:solid 1px #ff680b!important
+.pagination > li > a:hover,
+.pagination > li > span:hover{
+    color: #ff680b !Important;
+    background-color: #f5f5f5;
+    border-color: #ddd;
 }
 
-.pagination > .active > a:hover {
-background-color:#ff680b!important;
-border:solid 1px #ff680b
+.pagination > .active > a{
+    color: white;
+    background-color: #ff680b !Important;
+    border: solid 1px #ff680b !Important;
 }
 
-.product {
-display:table;
-width:100%
+.pagination > .active > a:hover{
+    background-color: #ff680b !Important;
+    border: solid 1px #ff680b;
 }
 
-.product-name,.product span,.product img {
-display:table-cell;
-vertical-align:top;
-padding:0 3px 15px
-}
 
-.product img {
-padding:0
+/*продукты*/
+.product{
+/*    border: 1px solid gray;*/
+    display: table;
+    width: 100%;
+}
+.product-name,
+.product span,
+.product img{
+    display:table-cell;
+    vertical-align: top;
+/*    margin: 10px;*/
+    padding: 0 3px 15px 3px;
+/*    border: 1px solid gray;*/
+}
+.product img{
+    padding:0
 }
 
 .product-name {
-text-align:left;
-font-size:.9rem;
-width:14%
+    text-align: left;
+    font-size: 0.9rem;
+    width: 14%;
+/*    border: 1px solid gray;*/
 }
-
 .product-desc {
-width:29%;
-height:180px;
-font-size:.8rem
+    width: 29%;
+    height: 180px;
+    font-size: 0.8rem;
 }
 
 .product-address {
-width:11%;
-font-size:.8rem
+    width: 11%;
+    font-size: 0.8rem;
 }
-
-.product-map,.product-rooms,.product-level,.product-square,.product-type-house {
-width:5%;
-font-size:.8rem
+.product-map,
+.product-rooms,
+.product-level,
+.product-square,
+.product-type-house{
+    width: 5%;
+    font-size: 0.8rem;
 }
-
 .offer {
-font-size:.9rem;
-padding:0 0 10px
+    font-size: 0.9rem;
+    padding: 0 0 10px 0;
 }
 
-.product a:link {
-color:#243238;
-font-size:.8rem;
-text-transform:none
+.product a:link   {
+    color:#243238; 
+    font-size: 0.8rem;
+    text-transform: none
 }
