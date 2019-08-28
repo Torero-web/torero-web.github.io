@@ -34,10 +34,48 @@ h3{
 .buttom img {
         width: 100px;
 }
-footer {
+
+/*FOOTER*/
+.footer_wrapper {
+    padding: 20px 30px 10px;
+    box-sizing: border-box;
+}
+
+.footer_row{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.footer_column {
+    padding: 0 10px;
+    box-sizing: border-box;
+    width: 100%;
+}
+.footer_column_item {
+    padding-bottom: 10px;
+}
+.footer_column_item_title {
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 19px;
+    padding-bottom: 2px;
+}
+.footer_column_item_content_link-block-item{
+    display: block;
+    text-align: left;
+    float: none;
+    width: 100%;
+    margin: 2px 0
+}
+.footer_column_item_content_link-block {
+    margin-bottom: 10px;
+}
+.footer-claimer {
+    margin: 10px 0;
+    font-size: 12px;
     text-align: center;
-    margin: 10px;
-    }
+}
+
 
 /*----- Навигация -----*/
 a:link   {color:#243238}

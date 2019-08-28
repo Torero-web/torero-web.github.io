@@ -18,12 +18,18 @@ header {
 .menu li{
     display: block;
     }
+#header-menu {
+    display: block;
+}
 
 #h_menu {
     width: 100%;
     margin: auto
 }
 
+.footer_row{
+    display: none
+}
 
 .buttom {
     display: none
